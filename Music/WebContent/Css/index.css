@@ -1,0 +1,226 @@
+@CHARSET "UTF-8";
+*,body,div,p{
+	margin:0px;
+	padding:0px;
+	font-family:"微软雅黑";
+}
+li {list-style-type:none;}
+a{
+   text-decoration:none;
+}
+.clear{
+	clear:both;
+}
+
+button,input{ -webkit-tap-highlight-color: rgba(255, 255, 255, 0);    
+    -webkit-user-modify: read-write-plaintext-only;}
+
+/*主页面 导航*/
+#header{
+	width:100%;
+	height:115px;
+	border-bottom:1px solid #DDDDDD;
+	font-family: "微软雅黑";
+}
+#headerFrame{
+	width:1024px;
+	margin:0 auto;
+	padding-top:33px;
+}
+#header #headerFrame .h_nav{
+	width:70%;
+	float:left;
+}
+#header #headerFrame .h_nav img{
+	display: block;
+	float: left;
+}
+#header #headerFrame .h_nav ul{
+	display: block;
+	float:left;
+	margin-left:40px;
+	margin-top:30px;
+}
+#header #headerFrame .h_nav li{
+	padding:0px 5px;
+	float:left;
+}
+#header #headerFrame .h_nav a{
+	color:#6E6E6E;
+	font-size:16px;
+}
+#header #headerFrame .h_nav a:hover,#header #headerFrame .h_nav a:ACTIVE,#header #headerFrame .h_nav .nav{
+	color:#0DAD51;
+	font-weight:bold;
+}
+#header #headerFrame .h_search{
+	display:block;
+	width:30%;
+	float:left;
+	
+}
+#header #headerFrame .h_search .kuan{ 
+	width:230px;
+	height:40px; 
+	border:3px solid #F0F0F0;
+	border-radius:5px;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	float:left;
+}
+#header #headerFrame .h_search .kuan input[type=text]{ 
+	width:200px;
+	height:34px; 
+	border:none;
+	float:left;
+}
+#header #headerFrame .h_search .kuan input[type=button]{ 
+	width:22px; 
+	height:21px;  
+	background:url(../Img/search.png) no-repeat;
+	border:none;  
+	float:left;
+	margin-top: 10px;
+	cursor:pointer;
+	outline：none;
+	filter:chroma(color=#000000);
+}
+/* 主页面 内容主体*/
+#bodyer{
+	width:100%;
+}
+#bodyerFrame{
+	width:1024px;
+	margin:0 auto;
+}
+/*---主页面左边框架---*/
+#bodyer #bodyerFrame #b_leftFrame{
+	/* width:700px; */
+	width:100%; 
+	float:left;
+}
+#bodyer #b_leftFrame .Ltitle,#bodyer #b_rightFrame .Ltitle{
+	width:50%;
+	height:50px;
+	/*height: 26px;*/
+    padding:0px 10px;
+    overflow: hidden;
+    margin: 0 0 18px;
+    border-left: solid 5px #ff7800;
+}
+#bodyer #b_leftFrame .Ltitle h2,#bodyer #b_rightFrame .Ltitle h2{ 
+	width:130px;
+	font-size:30px;
+	color:#333333;
+    line-height:50px;
+    float:left;
+    position:relative;
+}
+#bodyer #b_leftFrame .Ltitle a,#bodyer #b_rightFrame .Ltitle a{ 
+	cursor: pointer;
+	font-size:15px;
+    color:#0C8F44;
+    display:block;
+    float:left;
+    padding:21px 0px 0px 0px;
+    position:relative;
+}
+#bodyer #b_leftFrame .Lsong{
+	width:100%;
+	height:350px;
+}
+#bodyer #b_leftFrame .Lsong .LsongSingle{
+	width:240px;
+	height:250px;
+	float:left;
+	margin:15px 15px 0px 0px;
+}
+#bodyer #b_leftFrame .Lsong .LsongSingle img{
+	width:100%;
+	height:200px;
+}
+#bodyer #b_leftFrame .Lsong .LsongSingle a{
+	font-size: 15px;
+	color:#0C8F44;
+	cursor: pointer;
+}
+
+#bodyer #b_leftFrame .LrankTime{
+	width:100%;
+	
+}
+#bodyer #b_leftFrame .LrankHeat{
+	width:100%;
+	
+}
+/*---主页面右边框架---*/
+#bodyer #bodyerFrame #b_rightFrame{
+	width:260px;
+	float:right;
+	
+}
+#bodyer #bodyerFrame #b_rightFrame .login{
+	width:100%;
+	height:136px;
+	margin:15px 0px;
+	
+}
+
+#bodyer #bodyerFrame .Rsinger{
+	width:100px;
+	height:120px;
+	float:left;
+	margin:10px 10px 0px 0px;
+}
+#bodyer #bodyerFrame .Rsinger img{
+	width:100%;
+	height:100px;
+}
+#bodyer #bodyerFrame .Rsinger a{
+	font-size: 15px;
+	color:#0C8F44;
+	cursor: pointer;
+}
+/*主页面 版本信息 */
+#footer{
+	width:100%;
+	height:265px;
+	background: #F7F7F7;
+	font-family: "微软雅黑";
+	margin-top:50px;
+}
+#footer li{
+	float:left;
+}
+#footerFrame{
+	width:1024px;
+	margin:0 auto;
+	padding:32px 0px 7px;
+}
+#footerFrame h3{
+	font-color:#757575;
+}
+#footerFrame a,#footerFrame span{
+	font-size:13px;
+	color:#515151;
+}
+#footerFrame a:hover{
+	color:#0C8F44;
+}
+#footer #footerFrame #f_softdown{
+	width:350px;
+	height:150px;
+	float:left;
+}
+#footer #footerFrame #f_friendLink{
+	width:300px;
+	height:150px;
+	margin-left:200px;
+	float:left;
+}
+#footer #footerFrame #f_friendLink li{
+	padding:0 5px;
+}
+#footer #footerFrame #f_versionInfo{
+	text-align:center;
+}
